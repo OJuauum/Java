@@ -14,7 +14,14 @@ public class TesteFuncao01 {
         int s = a + b;
         System.out.println("A soma e " + s);
     }*/
-    public static void main(String[] args) {
-        soma(5,2);
+    
+    static int soma (int a, int b){
+        int s = a + b;
+        return s;
     }
+    
+    public static void main(String[] args) {
+        int sm = soma(5,2);
+        System.out.println("A soma vale " + sm);
+    }   
 }
